@@ -13,10 +13,32 @@
     width: 80%;
     min-height: 80vh;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    padding-top: 6rem;
 }
 
 li {
     list-style: none;
 }
 
+td {
+    height: 1rem;
+    width: 3.5rem;
+    border: 1px solid #777;
+}
+
+td:nth-child(odd) {
+    background-color: #ddd;
+}
+
+td:nth-child(even) {
+    background-color: #ccc;
+}
+
+table div {
+    height: 100%;
+}
+
+table div div {
+    margin-right: .5rem;
+}
