@@ -8,7 +8,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    background-color: #ebf9cd;
     height: 100%;
     width: 80%;
     min-height: 80vh;
@@ -21,14 +21,37 @@ li {
     list-style: none;
 }
 
+input {
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 1.25rem;
+    padding: .5rem;
+    border-radius: 8px;
+    background-color: #cff089;
+    color: #aa89f0;
+}
+
 table {
     border-collapse: collapse;
 }
 
+th {
+    background-color: #89cff0;
+    color: #fff;
+    padding: .3rem;
+    border-right: 1px solid #89cff0;
+    border-left: 1px solid #89cff0;
+}
+
 td {
+    text-align: center;
+    vertical-align: center;
     height: 1rem;
     width: 3.5rem;
-    border: 1px solid #777;
+    border: 1px solid #aaa;
 }
 
 td:nth-child(odd) {
